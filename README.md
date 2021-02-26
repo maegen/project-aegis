@@ -14,3 +14,6 @@ Link to our SharePoint: https://mysait.sharepoint.com/sites/SAITDropout
 For more information on how to use GitHub, don't hesitate to ask me!
 
 -Maegen
+
+________________________________
+Whenever you finish a code, please make it an executable thank you!
