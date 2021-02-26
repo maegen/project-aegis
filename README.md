@@ -17,3 +17,4 @@ For more information on how to use GitHub, don't hesitate to ask me!
 
 ________________________________
 Whenever you finish a code, please make it an executable thank you!
+For any automating scripts, please let me know so I can schedule it in the Raspberry Pi crontab jobs.
