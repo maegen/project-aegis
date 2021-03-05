@@ -21,10 +21,17 @@ margin:1em;
 width:8em;
 text-align:center;
 }
+nav ul li a{
+color:#FF6666;
+display:block;
+background-color:#80AAFF;
+box-shadow: 6px 6px 6px gray;
+margin-bottom:4px;
+}
 .patel{
 float: left;
 width: 35%;
-height:25em;
+height:29em;
 background-color:lightblue;
 padding:1em;
 }
@@ -33,14 +40,14 @@ float:left;
 padding:1em;
 width: 35%;
 background-color:lightblue;
-height:25em;
+height:29em;
 }
 article{
 float:left;
 padding:1em;
 width: 30%;
 background-color:lightblue;
-height:25em;
+height:29em;
 }
 
 footer{
