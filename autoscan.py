@@ -64,7 +64,7 @@ def map_network(pool_size=255):
 
     return ip_list
 
-# the global variable __name__ is used to execute the whole code 
+# the global variable __name__ is used to execute the whole code  
 # citation: https://stackoverflow.com/questions/419163/what-does-if-name-main-do
 if __name__ == '__main__':
 
