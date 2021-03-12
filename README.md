@@ -1,6 +1,10 @@
 # project-aegis
 Project AEGIS GitHub Repository for PROJ 354
-------
+_____________________
+Group Capstone Project working alongside Maegen Retuya, Tyler Dao, Mikey Cha, Justice Chuong, Timi Olawole, and Brijeshkumar Patel. Have contributed to the Python scanning scripts and setting up Azure Webserver and SQL.
+
+
+---------------------
 Every addition, feature, improvement, or fix should be developed in a branch off of the "main" with a descriptive name. If you are working with a specific task (ex: "Security Tasks"), you will be working off a branch named "security-tasks".
 
 Once you determine your branch to be ready to merge back into the main branch, open a pull request. Your pull request will be reviewed by the moderator (Maegen) who may make suggestions before it is approved and merged into the main branch. Your branch will then be deleted.
@@ -18,3 +22,4 @@ For more information on how to use GitHub, don't hesitate to ask me!
 ________________________________
 Whenever you finish a code, please make it an executable thank you!
 For any automating scripts, please let me know so I can schedule it in the Raspberry Pi crontab jobs.
+________________________________
