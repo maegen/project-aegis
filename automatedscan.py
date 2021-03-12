@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
 import os, sys, time, subprocess, socket
+import netifaces as ni
+import re
 
 #import ipaddress module to verify if input is a real ip address
 import ipaddress
