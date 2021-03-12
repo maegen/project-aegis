@@ -16,7 +16,7 @@ def validate_ip(ip):
   except ValueError:
    return False
 
-'''
+
 #ask for subnet and verifies
 def isSubnet():
  while True:
@@ -28,7 +28,7 @@ def isSubnet():
    print("\033[1;31;40mInvalid subnet entered\033[0m\n")
   except Exception as e:
    print(e) 
-'''
+
 
 #grab user's subnet automatically
 def grabSubnet():
