@@ -46,6 +46,7 @@ def viewMyNetwork():
  subprocess.check_call(['netdiscover','-r',subnet])
  #just ctrl+c after 10 seconds and re-run code
 
+#scan target IP
 def scanSomeone():
  while True:
   try:
@@ -62,7 +63,6 @@ def scanSomeone():
  print("-"*70)
  os.system("clear")
 
-
 #output system info
 def sysInfo():
  print("\033[1;36;40mSystem Info\0\033[0m\n")
@@ -78,7 +78,7 @@ def sysInfo():
  hostname = subprocess.check_output(['hostname'])
  print("Hostname: %s" % hostname)
 
-#main menu to select option (testing out menu through CLI)
+#main menu to select option (testing out menu through CLI) --ONLY for testing for Linux Console 
 def mainMenu():
  foo = True
  os.system("clear")
