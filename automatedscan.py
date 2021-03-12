@@ -16,6 +16,7 @@ def validate_ip(ip):
   except ValueError:
    return False
 
+'''
 #ask for subnet and verifies
 def isSubnet():
  while True:
@@ -27,14 +28,23 @@ def isSubnet():
    print("\033[1;31;40mInvalid subnet entered\033[0m\n")
   except Exception as e:
    print(e) 
+'''
+
+#grab user's subnet automatically
+def grabSubnet():
+ ni.ifaddresses('ens33')
+ ip = ni.ifaddresses('ens33')[ni.AF_INET][0]['addr']
+ arr = re.split('[,.]',ip)
+
+ subnet = (arr[0] + '.' + arr[1] + '.' + arr[2] + '.0/24')
+ return subnet
 
 #asks for user input subnet, verifies then nmap scans
 def scanMyNetwork():
- subnet = isSubnet()
+ subnet = grabSubnet()
  print("\033[1;36;40mNmap Scan Results\033[0m\n")
  print("-"*70)
- subnet = subnet + "/24"
- subprocess.check_call(['nmap','-sP','-T4',subnet])
+ subprocess.check_call(['nmap',subnet,'-sP','-oN','/var/www/html/nmap.html'])
  input("Hit ENTER to go back to main menu")
  print("-"*70)
  os.system("clear")
