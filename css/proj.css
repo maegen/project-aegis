@@ -1,0 +1,62 @@
+* {box-sizing:border-box;}
+body{
+color:blue;
+}
+header{
+background-color:green;
+text-align:center;
+color:lightblue;
+height:4em;
+}
+nav{
+background:lightblue;
+float:left;
+height:5em;
+width:100%;
+}
+nav ul li{
+list-style-type:none;
+float:left;
+margin:1em;
+width:8em;
+text-align:center;
+}
+nav ul li a{
+color:#FF6666;
+display:block;
+background-color:#80AAFF;
+box-shadow: 6px 6px 6px gray;
+margin-bottom:4px;
+}
+.patel{
+float: left;
+width: 35%;
+height:29em;
+background-color:lightblue;
+padding:1em;
+}
+section{
+float:left;
+padding:1em;
+width: 35%;
+background-color:lightblue;
+height:29em;
+}
+article{
+float:left;
+padding:1em;
+width: 30%;
+background-color:lightblue;
+height:29em;
+}
+
+footer{
+background-color:lightblue;
+text-align:center;
+color:red;
+height:8em;
+float:left;
+width:100%;
+clear:both;
+border:4px blue solid;
+}
